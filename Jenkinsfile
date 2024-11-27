@@ -15,7 +15,7 @@ pipeline {
                  script{
                         dir("terraform")
                         {
-                            git "https://github.com/Mohanavel-M/terraform-learn-testing.git"
+                            git "https://github.com/Mohanavel-M/jenkins-learn-testing.git"
                         }
                     }
                 }
